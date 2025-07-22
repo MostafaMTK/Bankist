@@ -4,11 +4,11 @@ A Demo Bank Website Application on JavaScript
 # For Live Demo 
 
 # Features
-you can transfer money from one account to another and you will find the transition in both with its time 
-you can request a loan and it will arrive to your account if it is valid after the bank review it 
-(the bank only grants a loan if there is at least one deposite with at least 10% of the requested loan amount)
-sum of all deposites and withdrawals and sum of interests will be calculated and also the total balance 
-all the money and dates will be showed with the language of the account 
+you can transfer money from one account to another and you will find the transition in both with its time <br/>
+you can request a loan and it will arrive to your account if it is valid after the bank review it <br/>
+(the bank only grants a loan if there is at least one deposite with at least 10% of the requested loan amount) <br/>
+sum of all deposites and withdrawals and sum of interests will be calculated and also the total balance  <br/>
+all the money and dates will be showed with the language of the account <br/>
 
 
 the username of each account is the first letters of the owner's name for ex : Jonas Schmedtmann -> js 
