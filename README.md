@@ -11,58 +11,56 @@ sum of all deposites and withdrawals and sum of interests will be calculated and
 all the money and dates will be showed with the language of the account <br/>
 
 
-the username of each account is the first letters of the owner's name for ex : Jonas Schmedtmann -> js 
+# the username of each account is the first letters of the owner's name for ex : Jonas Schmedtmann -> js <br/>
 
 # The initial data of the accounts 
-account1 : {
-  owner: 'Jonas Schmedtmann'
-  interestRate: 1.2%
-  pin: 1111
-  movements:
-    { value: 200, date: '2024-11-18' },
-    { value: 455.23, date: '2024-12-23' },
-    { value: -306.5, date: '2025-01-28' },
-    { value: 25000, date: '2025-04-01' },
-    { value: -642.21, date: '2025-06-08' },
-    { value: -133.9, date: '2025-07-18' },
-    { value: 79.97, date: '2025-07-20' },
-    { value: 1300, date: '2025-07-21' },
-    currency: 'USD'
-    locale: 'en-US'
-}
-account2 : {
-  owner: 'Jessica Davis'
-  interestRate: 1.5%
-  pin: 2222
-  movements: [
-    { value: 5000, date: '2024-11-01' },
-    { value: 3400, date: '2024-11-30' },
-    { value: -150, date: '2024-12-25' },
-    { value: -790, date: '2025-03-25' },
-    { value: -3210, date: '2025-05-05' },
-    { value: -1000, date: '2025-06-10' },
-    { value: 8500, date: '2025-07-18' },
-    { value: -30, date: '2025-07-20' },
-  ]
-  currency: 'EUR'
-  locale: 'de-DE'
-}
-const account3 : {
-  owner: 'Mostafa Mohammed'
-  interestRate: 1.4%
-  pin: 3333
-  movements: [
-    { value: 3000, date: '2024-11-01' },
-    { value: 5400, date: '2024-11-30' },
-    { value: -450, date: '2024-12-25' },
-    { value: -390, date: '2025-03-25' },
-    { value: -3210, date: '2025-05-05' },
-    { value: -2000, date: '2025-06-10' },
-    { value: 7500, date: '2025-07-18' },
-    { value: -300, date: '2025-07-20' },
-  ]
-  currency: 'EGP'
-  locale: 'ar-EG'
+account1 : { <br/>
+  owner: 'Jonas Schmedtmann' <br/>
+  interestRate: 1.2% <br/>
+  # pin: 1111<br/>
+  movements: <br/>
+    { value: 200, date: '2024-11-18' }, <br/>
+    { value: 455.23, date: '2024-12-23' }, <br/>
+    { value: -306.5, date: '2025-01-28' }, <br/>
+    { value: 25000, date: '2025-04-01' }, <br/>
+    { value: -642.21, date: '2025-06-08' }, <br/>
+    { value: -133.9, date: '2025-07-18' }, <br/>
+    { value: 79.97, date: '2025-07-20' }, <br/>
+    { value: 1300, date: '2025-07-21' }, <br/>
+    currency: 'USD' <br/>
+    locale: 'en-US' <br/>
+} <br/>
+account2 : { <br/>
+  owner: 'Jessica Davis' <br/>
+  interestRate: 1.5% <br/>
+  # pin: 2222 <br/>
+  movements: <br/>
+    { value: 5000, date: '2024-11-01' }, <br/>
+    { value: 3400, date: '2024-11-30' }, <br/>
+    { value: -150, date: '2024-12-25' }, <br/>
+    { value: -790, date: '2025-03-25' }, <br/>
+    { value: -3210, date: '2025-05-05' }, <br/>
+    { value: -1000, date: '2025-06-10' }, <br/>
+    { value: 8500, date: '2025-07-18' }, <br/>
+    { value: -30, date: '2025-07-20' }, <br/>
+  currency: 'EUR' <br/>
+  locale: 'de-DE' <br/>
+} <br/>
+const account3 : { <br/>
+  owner: 'Mostafa Mohammed' <br/>
+  interestRate: 1.4% <br/>
+  # pin: 3333 <br/>
+  movements: <br/>
+    { value: 3000, date: '2024-11-01' }, <br/>
+    { value: 5400, date: '2024-11-30' }, <br/>
+    { value: -450, date: '2024-12-25' }, <br/>
+    { value: -390, date: '2025-03-25' }, <br/>
+    { value: -3210, date: '2025-05-05' }, <br/>
+    { value: -2000, date: '2025-06-10' }, <br/>
+    { value: 7500, date: '2025-07-18' }, <br/>
+    { value: -300, date: '2025-07-20' }, <br/>
+  currency: 'EGP' <br/>
+  locale: 'ar-EG' <br/>
 }
 
 # ----------------------
