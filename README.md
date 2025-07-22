@@ -18,7 +18,7 @@ account1 : {
   owner: 'Jonas Schmedtmann'
   interestRate: 1.2%
   pin: 1111
-  movements: [
+  movements:
     { value: 200, date: '2024-11-18' },
     { value: 455.23, date: '2024-12-23' },
     { value: -306.5, date: '2025-01-28' },
@@ -27,9 +27,8 @@ account1 : {
     { value: -133.9, date: '2025-07-18' },
     { value: 79.97, date: '2025-07-20' },
     { value: 1300, date: '2025-07-21' },
-  ],
-  currency: 'USD'
-  locale: 'en-US'
+    currency: 'USD'
+    locale: 'en-US'
 }
 account2 : {
   owner: 'Jessica Davis'
