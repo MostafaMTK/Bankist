@@ -2,6 +2,7 @@
 A Demo Bank Website Application on JavaScript
 
 # For Live Demo 
+https://mostafamtk.github.io/Bankist/
 
 # Features
 you can transfer money from one account to another and you will find the transition in both with its time <br/>
@@ -11,7 +12,7 @@ sum of all deposites and withdrawals and sum of interests will be calculated and
 all the money and dates will be showed with the language of the account <br/>
 
 
-**the username of each account is the first letters of the owner's name for ex : Jonas Schmedtmann -> js** <br/>
+**the username of each account is the first letters of the owner's name for ex : Jonas Schmedtmann -> js**
 
 # The initial data of the accounts 
 account1 : { <br/>
