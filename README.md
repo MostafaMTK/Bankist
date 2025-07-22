@@ -11,13 +11,13 @@ sum of all deposites and withdrawals and sum of interests will be calculated and
 all the money and dates will be showed with the language of the account <br/>
 
 
-# the username of each account is the first letters of the owner's name for ex : Jonas Schmedtmann -> js <br/>
+**the username of each account is the first letters of the owner's name for ex : Jonas Schmedtmann -> js** <br/>
 
 # The initial data of the accounts 
 account1 : { <br/>
   owner: 'Jonas Schmedtmann' <br/>
   interestRate: 1.2% <br/>
-  # pin: 1111<br/>
+  **pin: 1111**<br/>
   movements: <br/>
     { value: 200, date: '2024-11-18' }, <br/>
     { value: 455.23, date: '2024-12-23' }, <br/>
@@ -33,7 +33,7 @@ account1 : { <br/>
 account2 : { <br/>
   owner: 'Jessica Davis' <br/>
   interestRate: 1.5% <br/>
-  # pin: 2222 <br/>
+  **pin: 2222** <br/>
   movements: <br/>
     { value: 5000, date: '2024-11-01' }, <br/>
     { value: 3400, date: '2024-11-30' }, <br/>
@@ -49,7 +49,7 @@ account2 : { <br/>
 const account3 : { <br/>
   owner: 'Mostafa Mohammed' <br/>
   interestRate: 1.4% <br/>
-  # pin: 3333 <br/>
+  **pin: 3333** <br/>
   movements: <br/>
     { value: 3000, date: '2024-11-01' }, <br/>
     { value: 5400, date: '2024-11-30' }, <br/>
